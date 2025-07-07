@@ -1,0 +1,30 @@
+import numpy as np
+
+# Data
+x = np.array([1, 2, 3])
+y = np.array([2, 4, 6])
+
+# Initialize parameters
+m = 0.0
+c = 0.0
+lr = 0.01
+epochs = 4  # 4 iterations
+
+n = len(x)
+
+for i in range(epochs):
+    y_pred = m * x + c
+    error = y - y_pred
+
+    # Compute gradients
+    dm = -(2/n) * np.sum(x * error)
+    dc = -(2/n) * np.sum(error)
+
+    # Update parameters
+    m = m - lr * dm
+    c = c - lr * dc
+
+    # Compute loss (mean squared error)
+    loss = np.mean(error ** 2)
+
+    print(f"Iteration {i+1}: m = {m:.4f}, c = {c:.4f}, loss = {loss:.4f}")
