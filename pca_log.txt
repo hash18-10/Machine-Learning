@@ -1,0 +1,4 @@
+2025-07-09 11:27:16,337 - INFO - Loaded Iris dataset with 150 samples
+2025-07-09 11:27:16,341 - INFO - Data standardized.
+2025-07-09 11:27:16,349 - INFO - Reduced to 2 principal components.
+2025-07-09 11:27:16,350 - INFO - Explained Variance Ratio: [0.72962445 0.22850762]
