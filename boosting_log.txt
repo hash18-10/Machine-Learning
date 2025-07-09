@@ -1,0 +1,6 @@
+2025-07-09 12:24:46,491 - INFO - Loaded Iris dataset with 150 samples
+2025-07-09 12:24:46,494 - INFO - Split data: 120 train / 30 test
+2025-07-09 12:25:26,222 - INFO - Loaded Iris dataset with 150 samples
+2025-07-09 12:25:26,225 - INFO - Split data: 120 train / 30 test
+2025-07-09 12:25:26,433 - INFO - Trained AdaBoost with 50 weak learners (depth=1)
+2025-07-09 12:25:26,457 - INFO - Boosting Accuracy: 96.67%

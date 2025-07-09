@@ -1,0 +1,7 @@
+2025-07-09 12:21:53,977 - INFO - Loaded Iris dataset with 150 samples
+2025-07-09 12:21:53,981 - INFO - Split data into training (120) and testing (30) samples
+2025-07-09 12:23:05,892 - INFO - Loaded Iris dataset with 150 samples
+2025-07-09 12:23:05,895 - INFO - Split data into training (120) and testing (30) samples
+2025-07-09 12:23:05,896 - INFO - Initialized BaggingClassifier with 10 DecisionTree estimators
+2025-07-09 12:23:05,940 - INFO - Trained BaggingClassifier
+2025-07-09 12:23:05,948 - INFO - Bagging Accuracy: 96.67%
